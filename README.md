@@ -1,12 +1,29 @@
-# FFmpeg 4.2.2
+# ffmpeg 4.4.3-2
 
-Compiled with [rtools-backports](https://github.com/r-windows/rtools-backports/tree/master/mingw-w64-ffmpeg) with dependencies from [rtools-packages](https://github.com/r-windows/rtools-packages).
-
-Example linking flags:
-
-```
-  -lavfilter -lswscale -lpostproc -lavformat -lavcodec -lswresample -lavutil \
-  -lvorbis -lvorbisenc -logg -lvpx \
-  -lbz2 -lsecur32 -lws2_32 -liconv -lz -lmp3lame -lx264 \
-  -lxvidcore -lole32 -lm -luser32 -lbcrypt
-```
+ - mingw-w64-i686-bzip2-1.0.8-1-any.pkg.tar.xz
+ - mingw-w64-i686-lame-3.100-1-any.pkg.tar.xz
+ - mingw-w64-i686-libogg-1.3.4-3-any.pkg.tar.xz
+ - mingw-w64-i686-libvorbis-1.3.6-1-any.pkg.tar.xz
+ - mingw-w64-i686-libvpx-1.8.2-1-any.pkg.tar.xz
+ - mingw-w64-i686-x264-git-r2991.1771b556-9500-any.pkg.tar.xz
+ - mingw-w64-i686-xvidcore-1.3.7-9500-any.pkg.tar.xz
+ - mingw-w64-i686-zlib-1.2.11-9100-any.pkg.tar.xz
+ - mingw-w64-i686-ffmpeg-4.4.3-2-any.pkg.tar.xz
+ - mingw-w64-x86_64-bzip2-1.0.8-1-any.pkg.tar.xz
+ - mingw-w64-x86_64-lame-3.100-1-any.pkg.tar.xz
+ - mingw-w64-x86_64-libogg-1.3.4-3-any.pkg.tar.xz
+ - mingw-w64-x86_64-libvorbis-1.3.6-1-any.pkg.tar.xz
+ - mingw-w64-x86_64-libvpx-1.8.2-1-any.pkg.tar.xz
+ - mingw-w64-x86_64-x264-git-r2991.1771b556-9500-any.pkg.tar.xz
+ - mingw-w64-x86_64-xvidcore-1.3.7-9500-any.pkg.tar.xz
+ - mingw-w64-x86_64-zlib-1.2.11-9100-any.pkg.tar.xz
+ - mingw-w64-x86_64-ffmpeg-4.4.3-2-any.pkg.tar.xz
+ - mingw-w64-ucrt-x86_64-bzip2-1.0.8-1-any.pkg.tar.xz
+ - mingw-w64-ucrt-x86_64-lame-3.100-1-any.pkg.tar.xz
+ - mingw-w64-ucrt-x86_64-libogg-1.3.4-3-any.pkg.tar.xz
+ - mingw-w64-ucrt-x86_64-libvorbis-1.3.6-1-any.pkg.tar.xz
+ - mingw-w64-ucrt-x86_64-libvpx-1.8.2-1-any.pkg.tar.xz
+ - mingw-w64-ucrt-x86_64-x264-git-r3053.c347e7a0-1-any.pkg.tar.xz
+ - mingw-w64-ucrt-x86_64-xvidcore-1.3.7-9500-any.pkg.tar.xz
+ - mingw-w64-ucrt-x86_64-zlib-1.2.11-9100-any.pkg.tar.xz
+ - mingw-w64-ucrt-x86_64-ffmpeg-4.4.3-2-any.pkg.tar.xz
